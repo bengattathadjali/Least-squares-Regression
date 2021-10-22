@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def line_calcul (m,b,x):
+    """
+    Cette fonction calcul m*x+b
+    """
     return m*x+b
 
 def average (a,b):
